@@ -1,7 +1,25 @@
 {
     "Log in": "Accedi",
     "Log In": "Accedi",
+    "log in": "",
     "Log out": "Esci",
     "Log Out": "Esci",
-    "Register": "Registrati"
+    "Register": "Registrati",
+    "Log in to your account": "Accedi al tuo account",
+    "Enter your email and password below to log in": "Inserisci la tua email e la password qui sotto per accedere",
+    "Email address": "Email",
+    "Email Address": "Email",
+    "Forgot your password?": "Password dimenticata?",
+    "Remember me": "Ricordami",
+    "Don't have an account?": "Non hai un account?",
+    "Sign up": "Registrati",
+    "Forgot password": "Password dimenticata",
+    "Enter your email to receive a password reset link": "Inserisci la tua email per ricevere un link per reimpostare la password",
+    "Or, return to": "Oppure, torna a",
+    "Create an account": "Crea account",
+    "Enter your details below to create your account": "Inserisci i tuoi dati qui sotto per creare il tuo account",
+    "Name": "Nome",
+    "Full name": "Nome completo",
+    "Confirm password": "Conferma email",
+    "Already have an account?": "Hai già un account?"
 }
