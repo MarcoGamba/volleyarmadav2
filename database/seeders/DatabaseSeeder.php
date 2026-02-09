@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Marco Gamba',
             'email' => 'marco.gamba@akomi.it',
+            'email_verified_at' => fake()->randomElement([now(), null]),
         ]);
     }
 }

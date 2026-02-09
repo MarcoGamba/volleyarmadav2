@@ -21,5 +21,7 @@
     "Name": "Nome",
     "Full name": "Nome completo",
     "Confirm password": "Conferma email",
-    "Already have an account?": "Hai già un account?"
+    "Already have an account?": "Hai già un account?",
+    "Please verify your email address by clicking on the link we just emailed to you.": "Verifica il tuo indirizzo email cliccando sul link che ti abbiamo appena inviato.",
+    "Resend verification email": "Invia nuovamente l'email di verifica"
 }
