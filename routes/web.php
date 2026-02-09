@@ -2,12 +2,18 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+// middleware: guest
+Route::middleware(['guest'])->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
+});
 
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+// middleware: auth, verified
+Route::middleware(['auth', 'verified'])->group(function () {
+    // dashboard
+    Route::view('dashboard', 'dashboard')->name('dashboard');
+});
 
+// settings routes
 require __DIR__.'/settings.php';
