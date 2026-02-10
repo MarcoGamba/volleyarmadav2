@@ -72,5 +72,15 @@
     "System": "Sistema",
     "Toggle sidebar": "Attiva/Disattiva sidebar",
     "Platform": "Piattaforma",
-    "Dashboard": "Bacheca"
+    "Dashboard": "Bacheca",
+    "Editions": "Edizioni",
+    "Edition": "Edizione",
+    "Manage editions in your platform.": "Gestisci le edizioni sulla tua piattaforma.",
+    "Registrations": "Registrazioni",
+    "Registration open": "Registrazioni aperte",
+    "Registration closed": "Registrazioni chiuse",
+    "Since an edition is still active, you cannot create a new one.": "Poiché un'edizione è ancora attiva, non è possibile crearne una nuova.",
+    "New edition": "Nuova edizione",
+    "Created/Updated": "Creazione/Aggiornamento",
+    "at": "alle"
 }

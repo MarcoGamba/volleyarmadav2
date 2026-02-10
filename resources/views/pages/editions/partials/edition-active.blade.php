@@ -31,7 +31,7 @@ new class extends Component {
         <flux:switch wire:model.live="active"/>
     </flux:field>
 
-    <flux:badge color="{{$edition->active ? 'green' : ''}}">
+    <flux:badge size="lg" color="{{$edition->active ? 'green' : ''}}" class="uppercase">
         {{__('Edition')}} {{ $edition->edition_number }}
     </flux:badge>
 </div>

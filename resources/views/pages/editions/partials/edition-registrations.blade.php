@@ -25,8 +25,6 @@ new class extends Component {
             $this->edition->registrations = $value;
             $this->edition->save();
         }
-
-        /*$this->dispatch('edition-');*/
     }
 }; ?>
 
@@ -39,7 +37,7 @@ new class extends Component {
     </flux:field>
 
     <div>
-        <flux:badge color="{{$edition->registrations ? 'green' : 'red'}}">
+        <flux:badge size="sm" color="{{$edition->registrations ? 'green' : ''}}" class="uppercase">
             {{$edition->registrations ? __('Registration open') : __('Registration closed')}}
         </flux:badge>
     </div>

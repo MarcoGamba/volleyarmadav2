@@ -2,7 +2,6 @@
 
 use App\Models\Edition;
 use Illuminate\Pagination\LengthAwarePaginator;
-use LaravelIdea\Helper\App\Models\_IH_Edition_C;
 use Livewire\Attributes\On;
 use Livewire\Component;
 use Livewire\Attributes\Computed;
@@ -25,7 +24,7 @@ new class extends Component {
     }
 
     #[Computed]
-    public function editions(): array|LengthAwarePaginator|_IH_Edition_C
+    public function editions(): LengthAwarePaginator
     {
         return Edition::query()
             ->tap(fn($query) => $this->sortBy ? $query->orderBy($this->sortBy, $this->sortDirection) : $query)
