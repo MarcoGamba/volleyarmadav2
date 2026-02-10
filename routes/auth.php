@@ -6,4 +6,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['auth', 'verified'])->group(function () {
     // dashboard
     Route::view('dashboard', 'dashboard')->name('dashboard');
+    // editions
+    Route::livewire('editions', 'pages::editions.index')->name('editions');
 });

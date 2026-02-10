@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
 // auth routes
 require __DIR__.'/auth.php';
 
